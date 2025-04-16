@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "This is the main branch for different soft NodeJs APIs",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YasserFat7alah/simple-APIs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YasserFat7alah/simple-APIs/issues"
+  },
+  "homepage": "https://github.com/YasserFat7alah/simple-APIs#readme",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.42.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
+    "drizzle-kit": "^0.31.0",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
