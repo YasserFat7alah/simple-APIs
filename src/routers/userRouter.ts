@@ -1,14 +1,18 @@
 import express from 'express';
 import {
-    registerUser
+    registerUser,
+    loginUser
 } from './../controller/userController.js';
 
 const router = express.Router();
 
 
 /* --- --- --- -ROUTERS LIST- --- --- --- */
-    // Register-user
+    // REGISTER USER
     router.post('/register-user', registerUser);
+
+    // LOGIN USER
+    router.post('/login', loginUser);
 
 
 /* --- --- --- --- --- --- --- --- --- -- */
